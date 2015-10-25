@@ -3,13 +3,12 @@
  *
  *	@see	MeasureCalculator for more information about the context
  */
-
 public class Main {
 
 	public static void main(String[] args) {
 
 		/*
-		 *	Example of temperature measures
+		 *	Example of temperature measures.
 		 */
 		final float ANTARCTICA_CELSIUS = -89.6f;
 		final float BRASILIA_CELSIUS = 36.4f;
@@ -17,7 +16,7 @@ public class Main {
 		final float FORT_WAYNE_FAHRENHEIT = 38.0f;
 
 		/*
-		 *	The object calculator will be used to convert the measures
+		 *	The object calculator will be used to convert the measures.
 		 */
 		MeasureCalculator calculator = new MeasureCalculator();
 

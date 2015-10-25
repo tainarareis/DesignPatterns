@@ -9,7 +9,7 @@
 public class MeasureCalculator {
 
 	/**
-	 *	Redirect the responsability to convert a measure to a Converter class.
+	 *	Redirect the responsability to convert a measure to a Converter object.
 	 *
 	 *	@param	currentMeasure	a measure
 	 *		(Currently: only temperature measures)
