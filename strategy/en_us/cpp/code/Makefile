@@ -1,36 +1,48 @@
-# Compiler Command
-COMPILER := g++
+### Makefile to build C++ programs
 
-# Folder Names
-HEADERS := headers
-SOURCES := sources
-
-# Temporary Build Folder Name
-BUILD := build
-
+## Context Attribute
 # Target Program Name
 TARGET := strategy
 
-# Compiler Flags
-CPPFLAGS := -O2 -g -W -Wall -pedantic -ansi -Wno-long-long -std=c++0x -Wextra -Wshadow -I$(HEADERS)
+## Directory Attributes
+# Header Folder Name
+HEADERS := headers
+# Source Folder Name
+SOURCES := sources
+# Temporary Build Folder Name
+BUILD := build
 
-# Build a List of Object Files
+## Compiler Settings
+# Compiler Command
+COMPILER := g++
+# Standard Version
+STD := 11
+# Compiler Flags
+CPPFLAGS := -O2 -g -W -Wall -pedantic -ansi -Wno-long-long -std=c++$(STD) -Wextra -Wshadow -I$(HEADERS)
+# All Sources
 CPPFILES := $(foreach dir,$(SOURCES),$(wildcard $(dir)/*.cpp))
 
-all: main
+## Makers
 
-run: main
-	./$(TARGET)
+# Default Make (Compile the Program)
+all: compile
 
-main: $(HPPFILES)
+# Default Make (Compile) and Automatic Run the Program
+run: all
+	@clear
+	@./$(TARGET)
+
+# Compile the Program
+compile:
 	@echo Building "$(TARGET)"...
-	@mkdir -p $(BUILD)
-	@g++ $(CPPFILES) $(CPPFLAGS) -o $(TARGET)
-	@rm -rf $(BUILD)/
-	@echo ...Built executable "$(TARGET)"
+	@$(COMPILER) $(CPPFILES) $(CPPFLAGS) -o $(TARGET)
+	@echo ...Successfully Built \""$(TARGET)"\"
 
+# Remove the Program
 clean:
-	@echo Cleaning...
-	@rm -rf $(BUILD)/
+	@echo Removing \""$(TARGET)"\"...
 	@rm -f $(TARGET)
-	@echo ...Cleaned!
+	@echo ...Removed!
+
+# Run (Compile and Run) and Clean (Delete the Program) Make
+runclean: run	clean
