@@ -13,7 +13,7 @@ public class FahrenheitToCelsius implements Converter {
 	/*
 	 *	Convert a measure in Fahrenheit into Celsius.
 	 *
-	 *	@param currentMeasure	a measure in Fahrenheit
+	 *	@param currentMeasure	a measure in Fahrenheit.
 	 *	@return	the measure converted into Celsius
 	 */
 	@Override
@@ -27,7 +27,7 @@ public class FahrenheitToCelsius implements Converter {
 		float convertedMeasure = (currentMeasure - 32f) * (5f / 9f);
 
 		/*
-		 *	Inform the conversion as follows: <X> °F (Fahrenheit) = <Y> °C (Celsius).
+		 *	Inform the conversion as follows: <X>°F (Fahrenheit) = <Y>°C (Celsius).
 		 *	Used to show a result of an application using Strategy Pattern.
 		 */
 		System.out.println(currentMeasure + FAHRENHEIT + " = " + convertedMeasure + CELSIUS);

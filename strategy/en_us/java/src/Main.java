@@ -1,14 +1,14 @@
 /**
  *	Main class with examples of application using Strategy Pattern.
  *
- *	@see	MeasureCalculator for more information about the context
+ *	@see	MeasureCalculator for more information about the context.
  */
 public class Main {
 
 	public static void main(String[] args) {
 
 		/*
-		 *	Example of temperature measures.
+		 *	Examples of temperature measure.
 		 */
 		final float ANTARCTICA_CELSIUS = -89.6f;
 		final float BRASILIA_CELSIUS = 36.4f;

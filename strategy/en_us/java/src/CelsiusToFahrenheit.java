@@ -11,10 +11,10 @@ public class CelsiusToFahrenheit implements Converter {
 	private final String CELSIUS = "°C (Celsius)";
 	private final String FAHRENHEIT = "°F (Fahrenheit)";
 
-	/*
+	/**
 	 *	Convert a measure in Celsius into Fahrenheit.
 	 *
-	 *	@param currentMeasure	a measure in Celsius
+	 *	@param currentMeasure	a measure in Celsius.
 	 *	@return	the measure converted into Fahrenheit
 	 */
 	@Override
@@ -28,7 +28,7 @@ public class CelsiusToFahrenheit implements Converter {
 		float convertedMeasure = (currentMeasure * (9f / 5f)) + 32f;
 
 		/*
-		 *	Inform the conversion as follows: <X> °C (Celsius) = <Y> °F (Fahrenheit).
+		 *	Inform the conversion as follows: <X>°C (Celsius) = <Y>°F (Fahrenheit).
 		 *	Used to show a result of an application using Strategy Pattern.
 		 */
 		System.out.println(currentMeasure + CELSIUS + " = " + convertedMeasure + FAHRENHEIT);
