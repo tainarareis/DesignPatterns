@@ -1,5 +1,7 @@
 # Strategy
 
+> ![Strategy Pattern](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/strategy_v1_0_example.png)
+
 > **Description**: <TODO>
 
 > **Applicability**: <TODO>
@@ -20,13 +22,15 @@
 
 > * Convert a Fahrenheit (American unit) temperature into Celsius (SI derived unit):
 
->> EQUATION IMAGE
+>> ![Fahrenheit to Celsius](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/equations/fahrenheit_to_celsius.png)
 
 > * Convert a Celsius (SI derived unit) temperature into Fahrenheit (American Unit):
 
->> EQUATION IMAGE
+>> ![Celsius to Fahrenheit](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/equations/celsius_to_fahrenheit.png)
 
 > ### Version 1.1 (Practice)
+
+> ![Strategy Practice](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/strategy_v1_1_practice.png)
 
 > **Continuation of the History**: Since Celsius is not the SI unit of temperature, the engineering student wants to convert Celsius and Fahrenheit into Kelvin, and vice-versa, using the **CONVERSIONATOR**.
 
@@ -38,7 +42,7 @@
 
 > * Convert a Kelvin (SI unit) temperature into Fahrenheit (American unit):
 
->> EQUATION IMAGE
+>> ![Kelvin to Fahrenheit](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/equations/kelvin_to_fahrenheit.png)
 
 > * Convert a Kelvin (SI unit) temperature into Celsius (SI derived unit):
 
@@ -46,7 +50,7 @@
 
 > * Convert a Fahrenheit (American unit) temperature into Kelvin (SI unit):
 
->> EQUATION IMAGE
+>> ![Fahrenheit to Kelvin](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/equations/fahrenheit_to_kelvin.png)
 
 > * Convert a Celsius (SI derived unit) temperature into Kelvin (SI unit):
 
@@ -62,6 +66,8 @@
 
 > ### Versions 2.0 and 3.0 (Challenge)
 
+> ![Strategy Practice](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/strategy_v2_v3_challenge.png)
+
 > **Continuation of the History**: Know it is time to make the **CONVERSIONATOR** shine! The exam of Physics is near and the engineering student wants to use the **CONVERSIONATOR** to discover the Thermal Linear Expansion Coefficient. He needs, first, to convert all kind of length measures.
 
 > **The Challenge**: Using your favorite language, implement the new version of the system. Keep in mind that now you have two types of conversion: Temperature and Length. Furthermore, the new feature, which is not about conversion, will need to use all kinds of length and temperature conversions to discover the Thermal Linear Expansion Coefficient. Use all design patterns you learned!
@@ -70,11 +76,11 @@
 
 > * All version 1.1 features;
 
-> * Convert Between each other: Kilometer, Meter, Centimeter, Millimeter, Inch, Feat, Yard, and Mile.
+> * Convert Between each other: Kilometer, Meter, Centimeter, Millimeter, Inch, Feat, Yard, and Mile. (Version 2.0)
 
-> * Calculate the Thermal Linear Expansion Coefficient:
+> * Calculate the Thermal Linear Expansion Coefficient (Version 3.0):
 
->> EQUATION IMAGE
+>> ![Thermal Linear Expansion Coefficient](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/equations/thermal_linear_expansion_coefficient.png)
 
 ---
 
