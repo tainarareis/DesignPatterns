@@ -1,10 +1,20 @@
 # Strategy
 
+**_Behavioral Gang of Four (GoF) Pattern_**
+
 > ![Strategy Pattern](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/strategy_v1_0_example.png)
 
-> **Description**: <TODO>
+> **Description**: Guarantee, using a simple structure, the variation of algorithms used in a problem resolution.
 
-> **Applicability**: <TODO>
+> **Applicability**: Use the Strategy pattern when
+
+> *	Many related classes differ only in their behavior. Strategies provide a way to configure a class either one of many behaviors;
+
+> *	You need different variants of an algorithm. Strategies can be used when these variants are implemented as a class hierarchy of algorithms;
+
+> *	An algorithm uses data that clients should not know about. Use the Strategy pattern to avoid exposing complex, algorithm-specific data structures;
+
+> *	A class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
 
 ---
 
@@ -68,7 +78,7 @@
 
 > ![Strategy Practice](https://raw.githubusercontent.com/tainarareis/DesignPatterns/master/strategy/docs/strategy_v2_v3_challenge.png)
 
-> **Continuation of the History**: Know it is time to make the **CONVERSIONATOR** shine! The exam of Physics is near and the engineering student wants to use the **CONVERSIONATOR** to discover the Thermal Linear Expansion Coefficient. He needs, first, to convert all kind of length measures.
+> **Continuation of the History**: Now is the time to make the **CONVERSIONATOR** shine! The exam of Physics is near and the engineering student wants to use the **CONVERSIONATOR** to discover the Thermal Linear Expansion Coefficient. He needs, first, to convert all kind of length measures.
 
 > **The Challenge**: Using your favorite language, implement the new version of the system. Keep in mind that now you have two types of conversion: Temperature and Length. Furthermore, the new feature, which is not about conversion, will need to use all kinds of length and temperature conversions to discover the Thermal Linear Expansion Coefficient. Use all design patterns you learned!
 
@@ -89,6 +99,8 @@
 > **Strategy Pattern**:
 
 >> https://en.wikipedia.org/wiki/Strategy_pattern
+
+>> https://github.com/iluwatar/java-design-patterns/blob/master/strategy/index.md
 
 > **Phsysics (Context)**:
 
