@@ -4,8 +4,8 @@
 
 ## Strategy Pattern
 
-* [American English](strategy/en-us/)
+* [American English](en-us/)
 
-* [Português Brasileiro](strategy/pt-br/)
+* [Português Brasileiro](pt-br/)
 
 ---

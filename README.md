@@ -6,10 +6,10 @@
 
 * **Structural**:
 
-		1. [Decorator](decorator/)
+	* [Decorator](decorator/)
 
 * **Behavioral**:
 
-		1. [Strategy](strategy/)
+	* [Strategy](strategy/)
 
 ---
