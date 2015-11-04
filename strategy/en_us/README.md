@@ -102,7 +102,7 @@
 
 >> https://github.com/iluwatar/java-design-patterns/blob/master/strategy/index.md
 
-> **Phsysics (Context)**:
+> **Physics (Context)**:
 
 >> http://www.ajdesigner.com/phpthermalexpansion/thermal_expansion_equation_linear_length_change.php
 
