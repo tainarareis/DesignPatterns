@@ -9,8 +9,6 @@ TARGET := strategy
 HEADERS := headers
 # Source Folder Name
 SOURCES := sources
-# Temporary Build Folder Name
-BUILD := build
 
 ## Compiler Settings
 # Compiler Command
