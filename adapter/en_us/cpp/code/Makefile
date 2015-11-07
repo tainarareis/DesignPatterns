@@ -2,7 +2,7 @@
 
 ## Context Attribute
 # Target Program Name
-TARGET := strategy
+TARGET := adapter
 
 ## Directory Attributes
 # Header Folder Name
