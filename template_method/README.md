@@ -2,7 +2,7 @@
 
 ---
 
-## Adapter Pattern
+## Template Method Pattern
 
 * [American English](en_us/)
 

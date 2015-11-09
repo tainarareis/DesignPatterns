@@ -2,7 +2,7 @@
 
 ---
 
-## Adapter Pattern
+## Decorator Pattern
 
 * [American English](en_us/)
 
