@@ -3,7 +3,7 @@ require './requirement'
 class UserStory
   include Requirement
 
-  def format(paper, wish, finality)
-    @content = "I like " + paper + " wants " + wish + " to "+ finality
+  def format(role, goal, reason)
+    @content = "As a " + role + ", I want to " + goal + " so that " + reason
   end
 end
