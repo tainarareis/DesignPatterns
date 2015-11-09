@@ -2,7 +2,7 @@
 
 ---
 
-## Adapter Pattern
+## Composite Pattern
 
 * [American English](en_us/)
 

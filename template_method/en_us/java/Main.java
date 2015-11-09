@@ -1,9 +1,7 @@
-package test;
+import ShoppingCart;
+import DefaultPurchase;
 
-import abstractPart.ShoppingCart;
-import concretePart.DefaultPurchase;
-
-public class TemplateMethodTest {
+public class Main {
 
 	/**
 	 * Testing the Template Method Pattern...
