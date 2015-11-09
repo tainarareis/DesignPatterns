@@ -31,6 +31,9 @@ public:
 	virtual void show_requirement();
 
 private:
+	const string NOT_DEFINED = "NOT DEFINED"; /**<
+	Default condition of the strings. */
+
 	string m_title; /**<	The title of this Feature. */
 	string m_description; /**<	A description of this Feature. */
 };

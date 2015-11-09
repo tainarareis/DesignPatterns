@@ -3,6 +3,10 @@
 void
 CompositeRequirement::show_requirement()
 {
+	/*
+	 *	Shows information of all requirements in the list of requirements in this
+	 *	object. If the list is empty, this method says so.
+	 */
 	if(!m_requirements.empty())
 	{
 		for(list<Requirement*>::iterator requirement = m_requirements.begin();
@@ -20,6 +24,10 @@ CompositeRequirement::show_requirement()
 void
 CompositeRequirement::add_requirement(Requirement* requirement)
 {
+	/*
+	 *	Insert a requirement object in the list. If the object is NULL, something
+	 *	really noisy should happen (:o) but the method simply do nothing.
+	 */
 	if(requirement != NULL)
 	{
 		m_requirements.push_back(requirement);
@@ -33,6 +41,10 @@ CompositeRequirement::add_requirement(Requirement* requirement)
 void
 CompositeRequirement::remove_requirement()
 {
+	/*
+	 *	Remove the last requirement object added in the list. If the list is
+	 *	already empty, this method says so.
+	 */
 	if(!m_requirements.empty())
 	{
 		m_requirements.pop_back();

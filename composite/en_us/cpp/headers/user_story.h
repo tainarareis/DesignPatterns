@@ -33,6 +33,9 @@ public:
 	virtual void show_requirement();
 
 private:
+	const string NOT_DEFINED = "NOT DEFINED"; /**<
+	Default condition of the strings. */
+
 	string m_title; /**<	The title of this User Story. */
 	string m_role; /**<	The role where directly wish this User Story done. */
 	string m_goal; /**<	The role's goal with this User Story, the features. */

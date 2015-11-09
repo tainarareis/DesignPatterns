@@ -38,7 +38,9 @@ int main()
 	Epic* e01 = new Epic(e01_title, e01_description);
 
 	/*
-	 * Generating the composite
+	 * Generating the composite.
+	 * Note that the Composite handle all the leaves of requirements exactly
+	 * the same way.
 	 */
 	CompositeRequirement composite_requirement;
 	composite_requirement.add_requirement(us01);
