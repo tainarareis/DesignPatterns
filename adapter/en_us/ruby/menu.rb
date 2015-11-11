@@ -1,15 +1,17 @@
 class Menu
-	attr_accessor :food
-	
-	def initialize()
-		@food = []
+	attr_accessor :foods
+
+	def initialize
+		@foods = []
 	end
 
-	def show_menu()
-		
+	def show_menu
+		@foods.each do |food|
+			food.show_ingredients
+		end
 	end
 
 	def add(food)
-
+		@foods << food
 	end
 end
