@@ -1,5 +1,7 @@
+require './vegan_food'
+
 class BroccoliPizza < VeganFood
 	def initialize()
-		@ingredients = ['Broccoli', 'Crust']
+		@vegan_ingredients = ['Broccoli', 'Crust']
 	end
 end

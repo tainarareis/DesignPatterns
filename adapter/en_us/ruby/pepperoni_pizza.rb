@@ -1,3 +1,5 @@
+require './food'
+
 class PepperoniPizza
 	include Food
 

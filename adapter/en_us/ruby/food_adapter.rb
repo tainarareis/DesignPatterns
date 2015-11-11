@@ -1,10 +1,10 @@
+require './food'
+
 class FoodAdapter
 	include Food
-	
-	attr_accessor :vegan_food
-	
+
+	# Adapting!!!
 	def initialize(vegan_food)
-		@vegan_food = vegan_food
-		@ingredients = @vegan_food.ingredients
+		@ingredients = vegan_food.vegan_ingredients
 	end
 end
