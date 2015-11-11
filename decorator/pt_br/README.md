@@ -2,7 +2,7 @@
 
 **_Padrão GoF (Gang of Four) Estrutural_**
 
-> <TODO>
+> ![Padrão Decorator](https://github.com/tainarareis/DesignPatterns/blob/master/decorator/docs/decorator_example.png)
 
 > **Descrição**: <TODO>
 
