@@ -1,7 +1,7 @@
-package java;
-
 /**
- * Describes properties of a certain class of objects,
+ * File: PolygonDecorator
+ * Role: Decorator
+ * Purpose: Describes properties of a certain class of objects,
  * Polygons have the same way to calculate perimeter.
  */
 public class PolygonDecorator extends Geometric {

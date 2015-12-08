@@ -1,7 +1,7 @@
-import ShoppingCart;
-
 /**
- * In a objective purchase the user chooses not to register itself.
+ * File: ObjectivePurchase
+ * Role: Concrete Part
+ * Purpose: In a objective purchase the user chooses not to register itself.
  */
 public class ObjectivePurchase extends ShoppingCart {
 
@@ -11,8 +11,8 @@ public class ObjectivePurchase extends ShoppingCart {
 	}
 
 	@Override
-	public void setDeliveryAdress(){
-		System.out.println("501 Auburn Ave NE, Atlanta, GA 30312, Estados Unidos")
+	public void setDeliveryAddress(){
+		System.out.println("Delivery Address: 501 Auburn Ave NE, Atlanta, GA 30312, Estados Unidos");
 	}
 
 }

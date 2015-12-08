@@ -1,5 +1,8 @@
-package java;
-
+/**
+ * File: Geometric
+ * Role: Component
+ * Purpose: Conserver the generic specification of a geometric figure.
+ */
 public class Geometric {
 
     public void calculateArea() {

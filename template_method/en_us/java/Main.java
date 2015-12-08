@@ -1,15 +1,16 @@
-import ShoppingCart;
-import DefaultPurchase;
-
+/**
+ * File: Main
+ * Role: Demonstration
+ * Purpose: Demonstrate the template pattern utilization.
+ */
 public class Main {
 
-	/**
-	 * Testing the Template Method Pattern...
-	 */
 	public static void main(String[] args) {
-		ShoppingCart generic = new DefaultPurchase();
-		generic.templateMethod();
+		ShoppingCart default_purchase = new DefaultPurchase();
+		default_purchase.templateMethod();
 
+		ShoppingCart objective_purchase = new ObjectivePurchase();
+		objective_purchase.templateMethod();
 	}
 
 }

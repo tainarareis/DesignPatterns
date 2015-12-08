@@ -1,20 +1,36 @@
+/**
+ * File: ShoppingCart
+ * Role: Abstract Class
+ * Purpose: Contains the template method.
+ */
+
+
 public abstract class ShoppingCart {
 
 	private double total;
 
+	/**
+	 * Resposible for setting up the operations sequence
+	 * in order to establish a reusable template.
+	 */
 	public final void templateMethod() {
 		selectItems();
 		calculateTotal();
 		registerUser();
-		setDeliveryAdress();
+		setDeliveryAddress();
 		realizePayment();
 	}
 
 	/**
-	 * The methods selectItems, calculateTotal and realizePayment
-	 * are settled up here but they can be implemented by the Concrete Parts also.
-	 * For this context, it has a default behavior so its not needed to be
-	 * overridden by the Concrete Parts.
+	 * The methods registerUser and setDeliveryAdress should be implemented by the concrete parts.
+	 */
+	public abstract void registerUser();
+
+	public abstract void setDeliveryAddress();
+
+
+	/**
+	 * Common methods.
 	 */
 	public void selectItems() {
 		System.out.println("Beans Package added to the shopping cart.");
@@ -28,21 +44,15 @@ public abstract class ShoppingCart {
 	}
 
 	public void realizePayment() {
-		System.out.println("Payment realized.");
+		System.out.println("Payment realized.\n\n");
 	}
 
 	public double getTotal() {
 		return total;
 	}
 
-	public void setTotal(double total) {
-		this.total = +total;
+	public void setTotal(double value) {
+		this.total = total + value;
 	}
 
-	/**
-	 * The next methods should be implemented by the concrete parts.
-	 */
-	public abstract void registerUser();
-
-	public abstract void setDeliveryAdress();
 }

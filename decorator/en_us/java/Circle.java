@@ -1,7 +1,7 @@
-package java;
-
 /**
- * Basic implementation of Geometric
+ * File: Circle
+ * Role: Concrete Component
+ * Purpose: Basic implementation of Geometric.
  */
 public class Circle extends Geometric {
 

@@ -1,6 +1,7 @@
 /**
- *	Main class with examples of application using Strategy Pattern.
- *
+ *	File: Main
+ *  Role: Demonstration
+ *  Purpose: Exemplificates the application of the Strategy Pattern.
  *	@see	MeasureCalculator for more information about the context.
  */
 public class Main {

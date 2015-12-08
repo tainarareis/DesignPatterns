@@ -1,15 +1,10 @@
 /**
- *	Class responsible to convert a measure in Celsius into Fahrenheit.
- *	It is a Concrete Strategy of the context.
+ *	File: CelsiusToFahrenheit
+ *  Role: Concrete Strategy
+ *  Purpose: Class responsible to convert a measure in Celsius into Fahrenheit.
  */
-
 public class CelsiusToFahrenheit implements Converter {
 
-	/*
-	 *	Names of the types of measure.
-	 */
-	private final String CELSIUS = "°C (Celsius)";
-	private final String FAHRENHEIT = "°F (Fahrenheit)";
 
 	/**
 	 *	Convert a measure in Celsius into Fahrenheit.
