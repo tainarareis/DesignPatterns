@@ -4,7 +4,7 @@
  * Purpose: "Maps" the client interface to the adaptee interface.
  * So the client uses the new interface.
  */
-public class FoodAdapter extends Food{
+public class FoodAdapter implements Food{
 
   // The adapter class "has a" instance of the adaptee class.
   private VeganFood veganFood;
@@ -13,9 +13,8 @@ public class FoodAdapter extends Food{
     this.veganFood = veganFood;
   }
 
-  @Override
   public void showIngredients() {
-    System.out.println("[Vegan Food]\n");
+    System.out.println("[V E G A N    F O O D]");
     veganFood.showVeganIngredients();
   }
 

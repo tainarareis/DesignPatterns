@@ -3,9 +3,8 @@
  * Role: Concrete Target
  * Purpose: Doesn't need adaptation.
  */
-public class PepperoniPizza extends Food {
+public class PepperoniPizza implements Food {
 
-  @Override
   public void showIngredients () {
     System.out.println("[PEPPERONI PIZZA]\n" +
 			"Ingredients:\n" +

@@ -1,5 +1,5 @@
 import java.util.List;
-
+import java.util.ArrayList;
 /**
  * File: Menu
  * Role: Client
@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class Menu {
 
-  private List<Food> foods;
+  private List<Food> foods = new ArrayList<Food>();
 
   /*	Insert a food-type object in the list.
    *  @param the food to be added.
